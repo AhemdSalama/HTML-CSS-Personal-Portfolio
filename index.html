@@ -16,12 +16,77 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive portfolio website Chris - Bedimcode</title>
+        <title>Portfolio</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
-            
+            <!-- Created the nave container -->
+            <nav class="nav container">
+                <!-- Fitst section is an a for the logo -->
+                <a href="#" class="nav__logo">
+                    Ahmed
+                </a>
+
+                <!-- Div for second section have the menu -->
+                <div class="nav__menu" id="nav-menu">
+                    <!-- nav list for the menu link and displied as grid -->
+                    <ul class="nav__list grid">
+                        <!-- The li that contain the nav link  -->
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="ri-home-5-line"></i> Home
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="ri-trophy-line"></i> Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="ri-book-open-line"></i> Qualification
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="ri-briefcase-line"></i> Services
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="ri-image-line"></i> Projects
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="ri-chat-3-line"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Close Button for responsive -->
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+
+                    <!-- Nav Buttons -->
+                    <div class="nav__buttons">
+                        <!-- Theme change button | give it clase change_theme and id THeme button-->
+                        <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+
+                        <!-- Toggle buttom -->
+                        <div class="menu__toggle" id="menu-toggle">
+                            <i class="ri-menu-4-line"></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </header>
 
         <!--==================== MAIN ====================-->
